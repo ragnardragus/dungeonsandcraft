@@ -1,0 +1,10 @@
+/saves
+/.vscode
+/crash-reports
+/logs
+/mods
+kubejs/exported
+.idea
+config/jei/bookmarks.ini
+/tmp
+*.zip

@@ -1,0 +1,55 @@
+{
+	id: "594CD3EF412BE3B1"
+	group: ""
+	order_index: 0
+	filename: "testchaper"
+	title: "TestChapter"
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Sorcerer"
+		icon: {
+			id: "ftbquests:custom_icon"
+			Count: 1b
+			tag: {
+				Icon: "kubejs:textures/item/sorcerer.png"
+			}
+		}
+		disable_toast: true
+		x: -7.5d
+		y: -3.5d
+		shape: "square"
+		id: "78397F43BC4E4488"
+		tasks: [{
+			id: "622ED0AC440C49A6"
+			type: "item"
+			item: "minecraft:dirt"
+			consume_items: true
+		}]
+		rewards: [
+			{
+				id: "79B867C21CB2C2A9"
+				type: "custom"
+				title: "Custom"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/sorcerer.png"
+					}
+				}
+				tags: ["job_reward"]
+				team_reward: false
+				auto: "enabled"
+			}
+			{
+				id: "5C0BC5C45B555329"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p unlocked Sorcerer job!!"
+				player_command: false
+			}
+		]
+	}]
+}
